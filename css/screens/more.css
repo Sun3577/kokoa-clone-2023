@@ -1,0 +1,40 @@
+.user-component__text span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--tomato);
+    border: 1px solid var(--tomato);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.user-component__subtitle {
+    display: flex;
+    align-items: center;
+}
+
+.more-screen .icon-row {
+    margin-top: 35px;
+}
+
+.icon-row :nth-child(2) {
+    position: relative;
+}
+
+.more-point {
+    left: 55px;
+    top: 15px
+}
+
+.more-gear {
+    position: relative;
+}
+
+.more__gear-point {
+    right: -5px;
+    top: -5px;
+}
